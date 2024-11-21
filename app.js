@@ -12,7 +12,7 @@ app.set("views", path.join(__dirname, 'views'));
 app.use(express.urlencoded({ extended: true }));
 
 // ponemos el servicio en escucha
-app.listen(5000, function(req, res)
+app.listen(5000, () =>
 {
     console.log ( "Servicio en marcha desde el puerto 5000");
 

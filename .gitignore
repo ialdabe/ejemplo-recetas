@@ -1,0 +1,5 @@
+# IntelliJ IDEA
+.idea/
+
+# Node.js dependencies
+node_modules/

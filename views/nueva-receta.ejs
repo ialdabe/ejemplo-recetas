@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nueva Receta</title>
+</head>
+<body>
+
+<h1>Añadir una nueva receta</h1>
+<form action="/nueva-receta" method="POST">
+    <label for="titulo">Título de la receta:</label>
+    <input type="text" id="titulo" name="titulo" required>
+    <br><br>
+
+    <label for="ingredientes">Ingredientes (separados por coma):</label>
+    <input type="text" id="ingredientes" name="ingredientes" required>
+    <br><br>
+
+    <button type="submit">Añadir receta</button>
+</form>
+</body>
+</html>
